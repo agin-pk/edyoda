@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.OuterContainer{
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.navLeftDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.navRightDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logoimg{
+    height: 35px;
+    width: 148px;
+}
+
+select{
+    border: none;
+    margin-left: 64px;
+}
+.LoginText{
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 64px;
+    
+}
+.joinButton{
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    border: none;
+    padding: 10px 42px;
+    border-radius: 52px;
+    background: linear-gradient(224deg, #0048FF 0%, #0096FF 100%);
+    margin-left: 64px;
+}
